@@ -1,7 +1,5 @@
 package com.mkyong.service;
 
-import com.mkyong.model.Book;
-import com.mkyong.repository.BookRepository;
 import com.mkyong.repository.DatabasenaamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,34 +12,8 @@ import java.util.Optional;
 public class BookService {
 
     @Autowired
-    private BookRepository bookRepository;
-
-    @Autowired
     private DatabasenaamRepository databasenaamRepository;
 
-    public List<Book> findAll() {
-        return bookRepository.findAll();
-    }
-
-    public Optional<Book> findById(Long id) {
-        return bookRepository.findById(id);
-    }
-
-    public Book save(Book book) {
-        return bookRepository.save(book);
-    }
-
-    public void deleteById(Long id) {
-        bookRepository.deleteById(id);
-    }
-
-    public List<Book> findByTitle(String title) {
-        return bookRepository.findByTitle(title);
-    }
-
-    public List<Book> findByPublishedDateAfter(LocalDate date) {
-        return bookRepository.findByPublishedDateAfter(date);
-    }
 
     public String geefDatabasenaam() {
         return databasenaamRepository.getNaam();
