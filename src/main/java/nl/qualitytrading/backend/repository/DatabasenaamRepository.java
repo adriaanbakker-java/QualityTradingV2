@@ -1,4 +1,4 @@
-package com.mkyong.repository;
+package nl.qualitytrading.backend.repository;
 
 
 

@@ -1,4 +1,4 @@
-package com.mkyong.repository;
+package nl.qualitytrading.backend.repository;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

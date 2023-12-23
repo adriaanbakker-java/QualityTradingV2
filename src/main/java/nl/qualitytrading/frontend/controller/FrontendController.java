@@ -1,6 +1,6 @@
-package com.mkyong.controller;
+package nl.qualitytrading.frontend.controller;
 
-import com.mkyong.service.BookService;
+import nl.qualitytrading.backend.service.backend.BackendService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -8,14 +8,14 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/frontendservice")
-public class BookController {
+public class FrontendController {
 
     @Autowired
-    private BookService bookService;
+    private BackendService backendService;
 
     @GetMapping("/geefdatabasenaam")
     public String geefDatabaseName() {
-        return "databasenaam is " + bookService.geefDatabasenaam();
+        return "databasenaam is " + backendService.geefDatabasenaam();
     }
 
 

@@ -1,15 +1,11 @@
-package com.mkyong.service;
+package nl.qualitytrading.backend.service.backend;
 
-import com.mkyong.repository.DatabasenaamRepository;
+import nl.qualitytrading.backend.repository.DatabasenaamRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.util.List;
-import java.util.Optional;
-
 @Service
-public class BookService {
+public class BackendService {
 
     @Autowired
     private DatabasenaamRepository databasenaamRepository;
