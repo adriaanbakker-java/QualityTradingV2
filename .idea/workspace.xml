@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb8e9dac-5a1a-4324-b97b-c1a75cfb2d5c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/qualitytrading/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/qualitytrading/frontend/controller/FrontendController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/repository/Databasenaam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/qualitytrading/backend/repository/Databasenaam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/repository/DatabasenaamRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/qualitytrading/backend/repository/DatabasenaamRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mkyong/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/nl/qualitytrading/backend/service/backend/BackendService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/nl/qualitytrading/frontend/controller/HelloWorldController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/helloworld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,12 +39,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/adriaanbakker/javastuff/QualityTradingV2",
+    "last_opened_file_path": "/Users/adriaanbakker/javastuff/QualityTradingV2/src/main/resources",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="nl.qualitytrading.frontend.controller" />
       <recent name="com.mkyong.repository" />
     </key>
   </component>
@@ -109,5 +109,16 @@
       <updated>1703261037857</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/nl/qualitytrading/frontend/controller/HelloWorldController.java</url>
+          <line>10</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
